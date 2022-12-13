@@ -61,8 +61,8 @@
                 </a>
             </div>
             <!-- lista header -->
-            <div class="link">
-                <ul>
+            <div class="container-link">
+                <ul class="link">
                     <li v-for="(link, index) in links" :key="index" class="elements">
                         <a href="#" class="list-element"> {{ link.txt }} </a>
                     </li>
@@ -87,6 +87,15 @@
 .link {
     display: flex;
     flex-direction: row;
-
+    gap: 15px;
+    list-style-type: none;
+}
+.list-element {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.container-link {
+    margin-top: 40px;
 }
 </style>

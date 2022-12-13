@@ -7,8 +7,24 @@
 img {
     max-width: 100%;
 }
-
-.container {
+.container{
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-header {
+    background-color: #fff;
+}
+.container-main {
+    background-color: #1c1c1c;
+    height: 200px;
+}
+.container-IconTopFooter {
+    background-color: #0282f9;
+    height: 200px;
+}
+.container-footer {
+    height: 500px;
+    background-color: brown;
 }
