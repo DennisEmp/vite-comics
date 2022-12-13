@@ -57,7 +57,7 @@
             <div class="logo">
                 <!-- logo -->
                 <a href="/">
-                    <img src="../assets/img/dc-logo.png" alt="">
+                    <img src="/public/img/dc-logo.png" alt="">
                 </a>
             </div>
             <!-- lista header -->
