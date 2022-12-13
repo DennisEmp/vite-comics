@@ -82,7 +82,7 @@
     justify-content: space-between;
     text-align: center;
     padding-top: 10px;
-
+    padding-bottom: 10px;
 }
 .link {
     display: flex;

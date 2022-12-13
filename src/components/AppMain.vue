@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <h1 class="h1"> --> Content goes here &larr >-- </h1>
+    <h1 class="h1"> --> Content goes here >-- </h1>
     
 </template>
 

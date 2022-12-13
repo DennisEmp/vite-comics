@@ -30,9 +30,11 @@
 </script>
 
 <template>
-    <div v-for="(icon, index) in icons" :key="index" class="container-TopFooter">
-        <img :src="icon.icon" alt="">
-        <h3> {{ icon.text }} </h3>
+    <div class="container-icon">
+        <div v-for="(icon, index) in icons" :key="index" class="container-TopFooter">
+            <img :src="icon.icon" alt="">
+            <h2 class="testo-icon"> {{ icon.text }} </h2>
+        </div>
     </div>
 </template>
 
@@ -41,13 +43,26 @@
 @use '../styles/partials/mixins.scss' as *;
 @use '../styles/partials/variables' as *;
 
-.container-TopFooter{
+.container-icon{
     display: flex;
     justify-content: space-between;
+    padding-top: 60px;
+}
+.container-TopFooter {
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+.testo-icon{
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 
 img {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 70px;
 }
 </style>
